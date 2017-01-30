@@ -2,15 +2,15 @@
 ```shell
 
 - Specific feature 
-calabash-android run <APK_PATH> features/TermsCondition.feature
+calabash-android run <APK_PATH>.apk features/TermsCondition.feature
 
 - Run all feature files
-calabash-android run <APK_PATH>
+calabash-android run <APK_PATH>.apk
 
 - Run by Tags
 calabash-android run <APK_PATH> —tags @tags
 
-- Run Order
+- Run Order by feature
 calabash-android run <APK_PATH> features/TermsCondition.feature features/Login.feature
 
 - Reports format
