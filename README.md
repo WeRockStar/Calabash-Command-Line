@@ -14,8 +14,8 @@ calabash-android run <APK_PATH> —tags @tags
 calabash-android run <APK_PATH> features/TermsCondition.feature features/Login.feature
 
 - Reports format
-calabash-android run <APK_NAME>.apk --format JSON --out 
-calabash-android run <APK_NAME>.apk --format HTML --out
+calabash-android run <APK_PATH>.apk --format JSON --out 
+calabash-android run <APK_PATH>.apk --format HTML --out
 
 - Specific emulator 
 calabash-android run <apk>.apk ADB_DEVICE_ARG=<DEVICE_NAME>
